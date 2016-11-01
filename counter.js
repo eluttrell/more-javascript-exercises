@@ -1,7 +1,7 @@
 function counter() {
-  var i = 0;
+  var i = 1;
   function count() {
-    return i += 1;
+    return i++;
   }
   return count;
 }
